@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-groq
+langchain-openai
+langgraph
+sentence-transformers
+faiss-cpu
+rank_bm25
+python-dotenv
+ragas
+datasets
+pandas

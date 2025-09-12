@@ -1,0 +1,17 @@
+# Environment variables - DO NOT COMMIT
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folder
+venv/
+*.venv/
+
+# Generated data/model files
+faiss_index/
+*.jsonl
