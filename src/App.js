@@ -5,7 +5,6 @@ import './App.css';
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
 
-// --- Main Chat Page Component ---
 const ChatPage = ({ setToken }) => {
     const [conversations, setConversations] = useState([]);
     const [activeConversationId, setActiveConversationId] = useState(null);
@@ -14,9 +13,10 @@ const ChatPage = ({ setToken }) => {
     const [isLoading, setIsLoading] = useState(false);
     const messagesEndRef = useRef(null);
 
-    const scrollToBottom = () => messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    const scrollToBottom = () => {
+        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
 
-    // Fetch all conversation titles when the component mounts
     const fetchConversations = async () => {
         const token = localStorage.getItem('token');
         try {
@@ -28,18 +28,18 @@ const ChatPage = ({ setToken }) => {
             console.error("Failed to fetch conversations", error);
         }
     };
-    
+
     useEffect(() => {
         fetchConversations();
     }, []);
 
-    // Fetch messages for the active conversation
     useEffect(() => {
         const fetchMessages = async () => {
             if (!activeConversationId) {
                 setMessages([]);
                 return;
             };
+            setIsLoading(true);
             const token = localStorage.getItem('token');
             try {
                 const res = await axios.get(`${API_BASE_URL}/chat/messages/${activeConversationId}`, {
@@ -49,6 +49,8 @@ const ChatPage = ({ setToken }) => {
             } catch (err) {
                 console.error("Failed to fetch messages", err);
                 setMessages([]);
+            } finally {
+                setIsLoading(false);
             }
         };
         fetchMessages();
@@ -62,25 +64,29 @@ const ChatPage = ({ setToken }) => {
 
         const userMessage = { role: 'user', content: input };
         setMessages(prev => [...prev, userMessage]);
+        const currentInput = input;
         setInput('');
         setIsLoading(true);
 
-        const token = localStorage.getItem('token');
         try {
-            const res = await axios.post(`${API_BASE_URL}/chat/new`, 
-                { message: input, conversationId: activeConversationId },
+            const token = localStorage.getItem('token');
+            const res = await axios.post(`${API_BASE_URL}/chat/new`,
+                { message: currentInput, conversationId: activeConversationId },
                 { headers: { Authorization: `Bearer ${token}` } }
             );
-            
-            setMessages(prev => [...prev, res.data.assistantMessage]);
-            
-            // If a new conversation was created, refresh the list and set it as active
+
+            // This logic correctly updates the message list after getting the real response
+            setMessages(prev => [...prev.slice(0, -1), userMessage, res.data.assistantMessage]);
+
             if(res.data.newConversation) {
+                // If a new conversation was created, refresh the list and set it as active
                 setConversations(prev => [res.data.newConversation, ...prev]);
                 setActiveConversationId(res.data.newConversation._id);
             }
         } catch (err) {
             console.error("Failed to send message", err);
+            const errorMessage = { role: 'assistant', content: 'Sorry, I had trouble connecting to the agent. The EC2 server may be offline.' };
+            setMessages(prev => [...prev.slice(0, -1), userMessage, errorMessage]);
         } finally {
             setIsLoading(false);
         }
@@ -100,12 +106,12 @@ const ChatPage = ({ setToken }) => {
         <div className="chat-container">
             <div className="sidebar">
                 <div>
-                    <h2>Cogni-Compliance</h2>
+                    <h2 className="sidebar-title">Cogni-Compliance</h2>
                     <button onClick={handleNewChat} className="new-chat-button">+ New Chat</button>
                     <div className="conversations-list">
                         {conversations.map(convo => (
-                            <div 
-                                key={convo._id} 
+                            <div
+                                key={convo._id}
                                 className={`conversation-item ${activeConversationId === convo._id ? 'active' : ''}`}
                                 onClick={() => setActiveConversationId(convo._id)}
                             >
@@ -118,12 +124,27 @@ const ChatPage = ({ setToken }) => {
             </div>
             <div className="chat-window">
                 <div className="messages">
+                    {/* ===== UPDATED WELCOME MESSAGE SECTION ===== */}
+                    {messages.length === 0 && !isLoading && !activeConversationId && (
+                        <div className="welcome-container">
+                            <h1 className="welcome-title">Cogni-Compliance Agent</h1>
+                            <p className="welcome-subtitle">Your AI assistant for navigating legal and regulatory documents.</p>
+                            <div className="info-box">
+                                <p>This is a full-stack application featuring a Retrieval-Augmented Generation (RAG) agent. Ask a question, and the agent will retrieve relevant information from its knowledge base (GDPR, CCPA, HIPAA) to generate a grounded answer.</p>
+                            </div>
+                            <div className="status-note">
+                                <p><strong>Server Status:</strong> The live AI backend on the AWS EC2 server is currently stopped to save costs. If you would like to see a live demo, please contact me at: <a href="mailto:devaaman8@gmail.com">devaaman8@gmail.com</a></p>
+                            </div>
+                        </div>
+                    )}
+                    {/* ======================================= */}
+
                     {messages.map((msg, index) => (
-                        <div key={index} className={`message ${msg.role}`}>
+                        <div key={msg._id || index} className={`message-bubble ${msg.role}`}>
                             <p>{msg.content}</p>
                         </div>
                     ))}
-                    {isLoading && <div className="message assistant"><p>Thinking...</p></div>}
+                    {isLoading && <div className="message-bubble assistant"><p>Thinking...</p></div>}
                     <div ref={messagesEndRef} />
                 </div>
                 <form onSubmit={handleSend} className="chat-input-form">
@@ -131,7 +152,7 @@ const ChatPage = ({ setToken }) => {
                         type="text"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
-                        placeholder="Ask a question..."
+                        placeholder="Ask a question about GDPR, CCPA, or HIPAA..."
                         disabled={isLoading}
                     />
                     <button type="submit" disabled={isLoading || !input.trim()}>Send</button>
@@ -158,6 +179,8 @@ const AuthPage = ({ setToken }) => {
                 setToken(res.data.token);
             } else {
                 setError('Signup successful! Please login.');
+                setUsername('');
+                setPassword('');
                 setIsLogin(true);
             }
         } catch (err) {
