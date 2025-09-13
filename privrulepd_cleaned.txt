@@ -1,0 +1,1596 @@
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00001
+Fmt 4717
+Sfmt 4717
+
+pfrm17
+PsN: 14AUR4"1985 National Archives and Records Administration" seal
+. 
+List of Subjects 
+45 CFR Part 160 
+Electronic transactions, Employer 
+benefit plan, Health, Health care, Health 
+facilities, Health insurance, Health 
+records, Medicaid, Medical research, 
+Medicare, Privacy, Reporting and record 
+keeping requirements. 
+45 CFR Part 164 
+Electronic transactions, Employer 
+benefit plan, Health, Health care, Health 
+facilities, Health insurance, Health 
+records, Medicaid, Medical research, 
+Medicare, Privacy, Reporting and record 
+keeping requirements. 
+Dated: August 6, 2002. 
+Tommy G. Thompson, 
+Secretary. 
+For the reasons set forth in the 
+preamble, the Department amends 45 
+CFR subtitle A, subchapter C, as 
+follows: 
+PART 160—GENERAL 
+ADMINISTRATIVE REQUIREMENTS 
+1. The authority citation for part 160 
+continues to read as follows: 
+Authority: Sec. 1171 through 1179 of the 
+Social Security Act (42 U.S.C. 1320d–1329d– 
+8), as added by sec. 262 of Pub. L. No. 104– 
+191, 110 Stat. 2021–2031 and sec. 264 of Pub. 
+L. No. 104–191 (42 U.S.C. 1320d–2(note)). 
+2. Amend § 160.102(b), by removing 
+the phrase ‘‘section 201(a)(5) of the 
+Health Insurance Portability Act of 
+1996, (Pub. L. No. 104–191)’’ and 
+adding in its place the phrase ‘‘the 
+Social Security Act, 42 U.S.C. 1320a– 
+7c(a)(5)’’. 
+3. In § 160.103 add the definition of 
+‘‘individually identifiable health 
+information’’ in alphabetical order to 
+read as follows: 
+§ 160.103 Definitions. 
+* 
+* 
+* 
+* 
+* 
+Individually identifiable health 
+information is information that is a 
+subset of health information, including 
+demographic information collected from 
+an individual, and: 
+(1) Is created or received by a health 
+care provider, health plan, employer, or 
+health care clearinghouse; and 
+(2) Relates to the past, present, or 
+future physical or mental health or 
+condition of an individual; the 
+provision of health care to an 
+individual; or the past, present, or 
+future payment for the provision of 
+health care to an individual; and 
+(i) That identifies the individual; or 
+(ii) With respect to which there is a 
+reasonable basis to believe the 
+information can be used to identify the 
+individual. 
+* 
+* 
+* 
+* 
+* 
+4. In § 160.202 revise paragraphs (2) 
+and (4) of the definition of ‘‘more 
+stringent’’ to read as follows: 
+§ 160.202 Definitions. 
+* 
+* 
+* 
+* 
+* 
+More stringent means * * * 
+(2) With respect to the rights of an 
+individual, who is the subject of the 
+individually identifiable health 
+information, regarding access to or 
+amendment of individually identifiable 
+health information, permits greater 
+rights of access or amendment, as 
+applicable. 
+* 
+* 
+* 
+* 
+* 
+(4) With respect to the form, 
+substance, or the need for express legal 
+permission from an individual, who is 
+the subject of the individually 
+identifiable health information, for use 
+or disclosure of individually identifiable 
+health information, provides 
+requirements that narrow the scope or 
+duration, increase the privacy 
+protections afforded (such as by 
+expanding the criteria for), or reduce the 
+coercive effect of the circumstances 
+surrounding the express legal 
+permission, as applicable. 
+* 
+* 
+* 
+* 
+* 
+5. Amend § 160.203(b) by adding the 
+words ‘‘individually identifiable’’ before 
+the word ‘‘health’’. 
+PART 164—SECURITY AND PRIVACY 
+Subpart E—Privacy of Individually 
+Identifiable Health Information 
+1. The authority citation for part 164 
+continues to read as follows: 
+Authority: 42 U.S.C. 1320d–2 and 1320d– 
+4, sec. 264 of Pub. L. No. 104–191, 110 Stat. 
+2033–2034 (42 U.S.C. 1320d–2(note)). 
+2. Amend § 164.102 by removing the 
+words ‘‘implementation standards’’ and 
+adding in its place the words 
+‘‘implementation specifications.’’ 
+3. In § 164.500, remove ‘‘consent,’’ 
+from paragraph (b)(1)(v). 
+4. Amend § 164.501 as follows: 
+a. In the definition of ‘‘health care 
+operations’’ remove from the 
+introductory text of the definition ‘‘, and 
+any of the following activities of an 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00087
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+organized health care arrangement in 
+which the covered entity participates’’ 
+and revise paragraphs (6)(iv) and (v). 
+b. Remove the definition of 
+‘‘individually identifiable health 
+information’’. 
+c. Revise the definition of 
+‘‘marketing’’. 
+d. In paragraph (1)(ii) of the definition 
+of ‘‘payment,’’ remove the word 
+‘‘covered’’. 
+e. Revise paragraph (2) of the 
+definition of ‘‘protected health 
+information’’. 
+f. Remove the words ‘‘a covered’’ and 
+replace them with ‘‘an’’ in the definition 
+of ‘‘required by law’’. 
+The revisions read as follows: 
+§ 164.501 Definitions. 
+* 
+* 
+* 
+* 
+* 
+Health care operations means * * * 
+(6) * * * 
+(iv) The sale, transfer, merger, or 
+consolidation of all or part of the 
+covered entity with another covered 
+entity, or an entity that following such 
+activity will become a covered entity 
+and due diligence related to such 
+activity; and 
+(v) Consistent with the applicable 
+requirements of § 164.514, creating de-
+identified health information or a 
+limited data set, and fundraising for the 
+benefit of the covered entity. 
+* 
+ * 
+* 
+* 
+* 
+Marketing means: 
+(1) To make a communication about a 
+product or service that encourages 
+recipients of the communication to 
+purchase or use the product or service, 
+unless the communication is made: 
+(i) To describe a health-related 
+product or service (or payment for such 
+product or service) that is provided by, 
+or included in a plan of benefits of, the 
+covered entity making the 
+communication, including 
+communications about: the entities 
+participating in a health care provider 
+network or health plan network; 
+replacement of, or enhancements to, a 
+health plan; and health-related products 
+or services available only to a health 
+plan enrollee that add value to, but are 
+not part of, a plan of benefits. 
+(ii) For treatment of the individual; or 
+(iii) For case management or care 
+coordination for the individual, or to 
+direct or recommend alternative 
+treatments, therapies, health care 
+providers, or settings of care to the 
+individual. 
+(2) An arrangement between a covered 
+entity and any other entity whereby the 
+covered entity discloses protected 
+health information to the other entity, in 
+exchange for direct or indirect 
+remuneration, for the other entity or its 
+affiliate to make a communication about 
+its own product or service that 
+encourages recipients of the 
+communication to purchase or use that 
+product or service. 
+* 
+* 
+* 
+* 
+* 
+Protected health information means 
+* * * 
+(2) Protected health information 
+excludes individually identifiable 
+health information in: 
+(i) Education records covered by the 
+Family Educational Rights and Privacy 
+Act, as amended, 20 U.S.C. 1232g; 
+(ii) Records described at 20 U.S.C. 
+1232g(a)(4)(B)(iv); and 
+(iii) Employment records held by a 
+covered entity in its role as employer. 
+* 
+* 
+* 
+* 
+* 
+5. Amend § 164.502 as follows: 
+a. Revise paragraphs (a)(1)(ii), (iii), 
+and (vi). 
+b. Revise paragraph (b)(2)(ii). 
+c. Redesignate paragraphs (b)(2)(iii) 
+through (v) as paragraphs (b)(2)(iv) 
+through (vi). 
+d. Add a new paragraph (b)(2)(iii). 
+e. Redesignate paragraphs (g)(3)(i) 
+through (iii) as (g)(3)(i)(A) through (C) 
+and redesignate paragraph (g)(3) as 
+(g)(3)(i). 
+f. Add a new paragraph (g)(3)(ii). 
+The revisions and additions read as 
+follows: 
+§ 164.502 Uses and disclosures of 
+protected health information: general rules. 
+(a) Standard. * * * 
+(1) Permitted uses and disclosures. 
+* * * 
+(ii) For treatment, payment, or health 
+care operations, as permitted by and in 
+compliance with § 164.506; 
+(iii) Incident to a use or disclosure 
+otherwise permitted or required by this 
+subpart, provided that the covered 
+entity has complied with the applicable 
+requirements of § 164.502(b), 
+§ 164.514(d), and § 164.530(c) with 
+respect to such otherwise permitted or 
+required use or disclosure; 
+* 
+* 
+* 
+* 
+* 
+(vi) As permitted by and in 
+compliance with this section, § 164.512, 
+or § 164.514(e), (f), or (g). 
+* 
+* 
+* 
+* 
+* 
+(b) Standard: Minimum necessary. 
+* * * 
+(2) Minimum necessary does not 
+apply. * * * 
+(ii) Uses or disclosures made to the 
+individual, as permitted under 
+paragraph (a)(1)(i) of this section or as 
+required by paragraph (a)(2)(i) of this 
+section; 
+(iii) Uses or disclosures made 
+pursuant to an authorization under 
+§ 164.508; 
+* 
+* 
+* 
+* 
+* 
+(g)(1) Standard: Personal 
+representatives. * * * 
+(3) Implementation specification: 
+unemancipated minors. * * * 
+(i) * * * 
+(ii) Notwithstanding the provisions of 
+paragraph (g)(3)(i) of this section: 
+(A) If, and to the extent, permitted or 
+required by an applicable provision of 
+State or other law, including applicable 
+case law, a covered entity may disclose, 
+or provide access in accordance with 
+§ 164.524 to, protected health 
+information about an unemancipated 
+minor to a parent, guardian, or other 
+person acting in loco parentis; 
+(B) If, and to the extent, prohibited by 
+an applicable provision of State or other 
+law, including applicable case law, a 
+covered entity may not disclose, or 
+provide access in accordance with 
+§ 164.524 to, protected health 
+information about an unemancipated 
+minor to a parent, guardian, or other 
+person acting in loco parentis; and 
+(C) Where the parent, guardian, or 
+other person acting in loco parentis, is 
+not the personal representative under 
+paragraphs (g)(3)(i)(A), (B), or (C) of this 
+section and where there is no applicable 
+access provision under State or other 
+law, including case law, a covered 
+entity may provide or deny access under 
+§ 164.524 to a parent, guardian, or other 
+person acting in loco parentis, if such 
+action is consistent with State or other 
+applicable law, provided that such 
+decision must be made by a licensed 
+health care professional, in the exercise 
+of professional judgment. 
+* 
+* 
+* 
+* 
+* 
+6. Amend § 164.504 as follows: 
+a. In paragraph (a), revise the 
+definitions of ‘‘health care component’’ 
+and ‘‘hybrid entity’’. 
+b. Revise paragraph (c)(1)(ii). 
+c. Revise paragraph (c)(2)(ii). 
+d. Revise paragraph (c)(3)(iii). 
+e. Revise paragraph (f)(1)(i). 
+f. Add paragraph (f)(1)(iii). 
+The revisions and addition read as 
+follows: 
+§ 164.504 Uses and disclosures: 
+Organizational requirements. 
+(a) Definitions. * * * 
+Health care component means a 
+component or combination of 
+components of a hybrid entity 
+designated by the hybrid entity in 
+accordance with paragraph (c)(3)(iii) of 
+this section. 
+Hybrid entity means a single legal 
+entity: 
+(1) That is a covered entity; 
+(2) Whose business activities include 
+both covered and non-covered 
+functions; and 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00088
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+(3) That designates health care 
+components in accordance with 
+paragraph (c)(3)(iii) of this section. 
+* 
+ * 
+* 
+* 
+* 
+(c)(1) Implementation specification: 
+Application of other provisions. * * * 
+(ii) A reference in such provision to 
+a ‘‘health plan,’’ ‘‘covered health care 
+provider,’’ or ‘‘health care 
+clearinghouse’’ refers to a health care 
+component of the covered entity if such 
+health care component performs the 
+functions of a health plan, health care 
+provider, or health care clearinghouse, 
+as applicable; and 
+* 
+* 
+* 
+* 
+* 
+(2) Implementation specifications: 
+Safeguard requirements. * * * 
+(ii) A component that is described by 
+paragraph (c)(3)(iii)(B) of this section 
+does not use or disclose protected 
+health information that it creates or 
+receives from or on behalf of the health 
+care component in a way prohibited by 
+this subpart; and 
+* 
+* 
+* 
+* 
+* 
+(3) Implementation specifications: 
+Responsibilities of the covered entity. 
+* * * 
+(iii) The covered entity is responsible 
+for designating the components that are 
+part of one or more health care 
+components of the covered entity and 
+documenting the designation as 
+required by § 164.530(j), provided that, 
+if the covered entity designates a health 
+care component or components, it must 
+include any component that would meet 
+the definition of covered entity if it were 
+a separate legal entity. Health care 
+component(s) also may include a 
+component only to the extent that it 
+performs: 
+(A) Covered functions; or 
+(B) Activities that would make such 
+component a business associate of a 
+component that performs covered 
+functions if the two components were 
+separate legal entities. 
+* 
+* 
+* 
+* 
+* 
+(f)(1) Standard: Requirements for 
+group health plans. (i) Except as 
+provided under paragraph (f)(1)(ii) or 
+(iii) of this section or as otherwise 
+authorized under § 164.508, a group 
+health plan, in order to disclose 
+protected health information to the plan 
+sponsor or to provide for or permit the 
+disclosure of protected health 
+information to the plan sponsor by a 
+health insurance issuer or HMO with 
+respect to the group health plan, must 
+ensure that the plan documents restrict 
+uses and disclosures of such 
+information by the plan sponsor 
+consistent with the requirements of this 
+subpart. 
+* 
+* 
+* 
+* 
+* 
+(iii) The group health plan, or a health 
+insurance issuer or HMO with respect to 
+the group health plan, may disclose to 
+the plan sponsor information on 
+whether the individual is participating 
+in the group health plan, or is enrolled 
+in or has disenrolled from a health 
+insurance issuer or HMO offered by the 
+plan. 
+* 
+* 
+* 
+* 
+* 
+7. Revise § 164.506 to read as follows: 
+§ 164.506 Uses and disclosures to carry 
+out treatment, payment, or health care 
+operations. 
+(a) Standard: Permitted uses and 
+disclosures. Except with respect to uses 
+or disclosures that require an 
+authorization under § 164.508(a)(2) and 
+(3), a covered entity may use or disclose 
+protected health information for 
+treatment, payment, or health care 
+operations as set forth in paragraph (c) 
+of this section, provided that such use 
+or disclosure is consistent with other 
+applicable requirements of this subpart. 
+(b) Standard: Consent for uses and 
+disclosures permitted. (1) A covered 
+entity may obtain consent of the 
+individual to use or disclose protected 
+health information to carry out 
+treatment, payment, or health care 
+operations. 
+(2) Consent, under paragraph (b) of 
+this section, shall not be effective to 
+permit a use or disclosure of protected 
+health information when an 
+authorization, under § 164.508, is 
+required or when another condition 
+must be met for such use or disclosure 
+to be permissible under this subpart. 
+(c) Implementation specifications: 
+Treatment, payment, or health care 
+operations. 
+(1) A covered entity may use or 
+disclose protected health information 
+for its own treatment, payment, or 
+health care operations. 
+(2) A covered entity may disclose 
+protected health information for 
+treatment activities of a health care 
+provider. 
+(3) A covered entity may disclose 
+protected health information to another 
+covered entity or a health care provider 
+for the payment activities of the entity 
+that receives the information. 
+(4) A covered entity may disclose 
+protected health information to another 
+covered entity for health care operations 
+activities of the entity that receives the 
+information, if each entity either has or 
+had a relationship with the individual 
+who is the subject of the protected 
+health information being requested, the 
+protected health information pertains to 
+such relationship, and the disclosure is: 
+(i) For a purpose listed in paragraph 
+(1) or (2) of the definition of health care 
+operations; or 
+(ii) For the purpose of health care 
+fraud and abuse detection or 
+compliance. 
+(5) A covered entity that participates 
+in an organized health care arrangement 
+may disclose protected health 
+information about an individual to 
+another covered entity that participates 
+in the organized health care 
+arrangement for any health care 
+operations activities of the organized 
+health care arrangement. 
+8. Revise § 164.508 to read as follows: 
+§ 164.508 Uses and disclosures for which 
+an authorization is required. 
+(a) Standard: authorizations for uses 
+and disclosures.—(1) Authorization 
+required: general rule. Except as 
+otherwise permitted or required by this 
+subchapter, a covered entity may not 
+use or disclose protected health 
+information without an authorization 
+that is valid under this section. When a 
+covered entity obtains or receives a 
+valid authorization for its use or 
+disclosure of protected health 
+information, such use or disclosure 
+must be consistent with such 
+authorization. 
+(2) Authorization required: 
+psychotherapy notes. Notwithstanding 
+any provision of this subpart, other than 
+the transition provisions in § 164.532, a 
+covered entity must obtain an 
+authorization for any use or disclosure 
+of psychotherapy notes, except: 
+(i) To carry out the following 
+treatment, payment, or health care 
+operations: 
+(A) Use by the originator of the 
+psychotherapy notes for treatment; 
+(B) Use or disclosure by the covered 
+entity for its own training programs in 
+which students, trainees, or 
+practitioners in mental health learn 
+under supervision to practice or 
+improve their skills in group, joint, 
+family, or individual counseling; or 
+(C) Use or disclosure by the covered 
+entity to defend itself in a legal action 
+or other proceeding brought by the 
+individual; and 
+(ii) A use or disclosure that is 
+required by § 164.502(a)(2)(ii) or 
+permitted by § 164.512(a); § 164.512(d) 
+with respect to the oversight of the 
+originator of the psychotherapy notes; 
+§ 164.512(g)(1); or § 164.512(j)(1)(i). 
+(3) Authorization required: Marketing. 
+(i) Notwithstanding any provision of 
+this subpart, other than the transition 
+provisions in § 164.532, a covered entity 
+must obtain an authorization for any use 
+or disclosure of protected health 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00089
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+information for marketing, except if the 
+communication is in the form of: 
+(A) A face-to-face communication 
+made by a covered entity to an 
+individual; or 
+(B) A promotional gift of nominal 
+value provided by the covered entity. 
+(ii) If the marketing involves direct or 
+indirect remuneration to the covered 
+entity from a third party, the 
+authorization must state that such 
+remuneration is involved. 
+(b) Implementation specifications: 
+general requirements.—(1) Valid 
+authorizations. (i) A valid authorization 
+is a document that meets the 
+requirements in paragraphs (a)(3)(ii), 
+(c)(1), and (c)(2) of this section, as 
+applicable. 
+(ii) A valid authorization may contain 
+elements or information in addition to 
+the elements required by this section, 
+provided that such additional elements 
+or information are not inconsistent with 
+the elements required by this section. 
+(2) Defective authorizations. An 
+authorization is not valid, if the 
+document submitted has any of the 
+following defects: 
+(i) The expiration date has passed or 
+the expiration event is known by the 
+covered entity to have occurred; 
+(ii) The authorization has not been 
+filled out completely, with respect to an 
+element described by paragraph (c) of 
+this section, if applicable; 
+(iii) The authorization is known by 
+the covered entity to have been revoked; 
+(iv) The authorization violates 
+paragraph (b)(3) or (4) of this section, if 
+applicable; 
+(v) Any material information in the 
+authorization is known by the covered 
+entity to be false. 
+(3) Compound authorizations. An 
+authorization for use or disclosure of 
+protected health information may not be 
+combined with any other document to 
+create a compound authorization, 
+except as follows: 
+(i) An authorization for the use or 
+disclosure of protected health 
+information for a research study may be 
+combined with any other type of written 
+permission for the same research study, 
+including another authorization for the 
+use or disclosure of protected health 
+information for such research or a 
+consent to participate in such research; 
+(ii) An authorization for a use or 
+disclosure of psychotherapy notes may 
+only be combined with another 
+authorization for a use or disclosure of 
+psychotherapy notes; 
+(iii) An authorization under this 
+section, other than an authorization for 
+a use or disclosure of psychotherapy 
+notes, may be combined with any other 
+such authorization under this section, 
+except when a covered entity has 
+conditioned the provision of treatment, 
+payment, enrollment in the health plan, 
+or eligibility for benefits under 
+paragraph (b)(4) of this section on the 
+provision of one of the authorizations. 
+(4) Prohibition on conditioning of 
+authorizations. A covered entity may 
+not condition the provision to an 
+individual of treatment, payment, 
+enrollment in the health plan, or 
+eligibility for benefits on the provision 
+of an authorization, except: 
+(i) A covered health care provider 
+may condition the provision of research-
+related treatment on provision of an 
+authorization for the use or disclosure of 
+protected health information for such 
+research under this section; 
+(ii) A health plan may condition 
+enrollment in the health plan or 
+eligibility for benefits on provision of an 
+authorization requested by the health 
+plan prior to an individual’s enrollment 
+in the health plan, if: 
+(A) The authorization sought is for the 
+health plan’s eligibility or enrollment 
+determinations relating to the 
+individual or for its underwriting or risk 
+rating determinations; and 
+(B) The authorization is not for a use 
+or disclosure of psychotherapy notes 
+under paragraph (a)(2) of this section; 
+and 
+(iii) A covered entity may condition 
+the provision of health care that is 
+solely for the purpose of creating 
+protected health information for 
+disclosure to a third party on provision 
+of an authorization for the disclosure of 
+the protected health information to such 
+third party. 
+(5) Revocation of authorizations. An 
+individual may revoke an authorization 
+provided under this section at any time, 
+provided that the revocation is in 
+writing, except to the extent that: 
+(i) The covered entity has taken action 
+in reliance thereon; or 
+(ii) If the authorization was obtained 
+as a condition of obtaining insurance 
+coverage, other law provides the insurer 
+with the right to contest a claim under 
+the policy or the policy itself. 
+(6) Documentation. A covered entity 
+must document and retain any signed 
+authorization under this section as 
+required by § 164.530(j). 
+(c) Implementation specifications: 
+Core elements and requirements.—(1) 
+Core elements. A valid authorization 
+under this section must contain at least 
+the following elements: 
+(i) A description of the information to 
+be used or disclosed that identifies the 
+information in a specific and 
+meaningful fashion. 
+(ii) The name or other specific 
+identification of the person(s), or class 
+of persons, authorized to make the 
+requested use or disclosure. 
+(iii) The name or other specific 
+identification of the person(s), or class 
+of persons, to whom the covered entity 
+may make the requested use or 
+disclosure. 
+(iv) A description of each purpose of 
+the requested use or disclosure. The 
+statement ‘‘at the request of the 
+individual’’ is a sufficient description of 
+the purpose when an individual 
+initiates the authorization and does not, 
+or elects not to, provide a statement of 
+the purpose. 
+(v) An expiration date or an 
+expiration event that relates to the 
+individual or the purpose of the use or 
+disclosure. The statement ‘‘end of the 
+research study,’’ ‘‘none,’’ or similar 
+language is sufficient if the 
+authorization is for a use or disclosure 
+of protected health information for 
+research, including for the creation and 
+maintenance of a research database or 
+research repository. 
+(vi) Signature of the individual and 
+date. If the authorization is signed by a 
+personal representative of the 
+individual, a description of such 
+representative’s authority to act for the 
+individual must also be provided. 
+(2) Required statements. In addition 
+to the core elements, the authorization 
+must contain statements adequate to 
+place the individual on notice of all of 
+the following: 
+(i) The individual’s right to revoke the 
+authorization in writing, and either: 
+(A) The exceptions to the right to 
+revoke and a description of how the 
+individual may revoke the 
+authorization; or 
+(B) To the extent that the information 
+in paragraph (c)(2)(i)(A) of this section 
+is included in the notice required by 
+§ 164.520, a reference to the covered 
+entity’s notice. 
+(ii) The ability or inability to 
+condition treatment, payment, 
+enrollment or eligibility for benefits on 
+the authorization, by stating either: 
+(A) The covered entity may not 
+condition treatment, payment, 
+enrollment or eligibility for benefits on 
+whether the individual signs the 
+authorization when the prohibition on 
+conditioning of authorizations in 
+paragraph (b)(4) of this section applies; 
+or 
+(B) The consequences to the 
+individual of a refusal to sign the 
+authorization when, in accordance with 
+paragraph (b)(4) of this section, the 
+covered entity can condition treatment, 
+enrollment in the health plan, or 
+eligibility for benefits on failure to 
+obtain such authorization. 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00090
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+(iii) The potential for information 
+disclosed pursuant to the authorization 
+to be subject to redisclosure by the 
+recipient and no longer be protected by 
+this subpart. 
+(3) Plain language requirement. The 
+authorization must be written in plain 
+language. 
+(4) Copy to the individual. If a covered 
+entity seeks an authorization from an 
+individual for a use or disclosure of 
+protected health information, the 
+covered entity must provide the 
+individual with a copy of the signed 
+authorization. 
+9. Amend § 164.510 as follows: 
+a. Revise the first sentence of the 
+introductory text. 
+b. Remove the word ‘‘for’’ from 
+paragraph (b)(3). 
+The revision reads as follows: 
+§ 164.510 Uses and disclosures requiring 
+an opportunity for the individual to agree or 
+to object. 
+A covered entity may use or disclose 
+protected health information, provided 
+that the individual is informed in 
+advance of the use or disclosure and has 
+the opportunity to agree to or prohibit 
+or restrict the use or disclosure, in 
+accordance with the applicable 
+requirements of this section. * * * 
+* 
+* 
+* 
+* 
+* 
+10. Amend § 164.512 as follows: 
+a. Revise the section heading and the 
+first sentence of the introductory text. 
+b. Revise paragraph (b)(1)(iii). 
+c. In paragraph (b)(1)(v)(A) remove the 
+word ‘‘a’’ before the word ‘‘health.’’ 
+d. Add the word ‘‘and’’ after the 
+semicolon at the end of paragraph 
+(b)(1)(v)(C). 
+e. Redesignate paragraphs (f)(3)(ii) 
+and (iii) as (f)(3)(i) and (ii). 
+f. In the second sentence of paragraph 
+(g)(2) add the word ‘‘to’’ after the word 
+‘‘directors.’’ 
+g. In paragraph (i)(1)(iii)(A) remove 
+the word ‘‘is’’ after the word 
+‘‘disclosure.’’ 
+h. Revise paragraph (i)(2)(ii). 
+i. In paragraph (i)(2)(iii) remove 
+‘‘(i)(2)(ii)(D)’’ and add in its place 
+‘‘(i)(2)(ii)(C)’’. 
+The revisions read as follows: 
+§ 164.512 Uses and disclosures for which 
+an authorization or opportunity to agree or 
+object is not required. 
+A covered entity may use or disclose 
+protected health information without 
+the written authorization of the 
+individual, as described in § 164.508, or 
+the opportunity for the individual to 
+agree or object as described in § 164.510, 
+in the situations covered by this section, 
+subject to the applicable requirements of 
+this section. * * * 
+* 
+* 
+* 
+* 
+* 
+(b) Standard: uses and disclosures for 
+public health activities. 
+(1) Permitted disclosures. * * * 
+(iii) A person subject to the 
+jurisdiction of the Food and Drug 
+Administration (FDA) with respect to an 
+FDA-regulated product or activity for 
+which that person has responsibility, for 
+the purpose of activities related to the 
+quality, safety or effectiveness of such 
+FDA-regulated product or activity. Such 
+purposes include: 
+(A) To collect or report adverse events 
+(or similar activities with respect to food 
+or dietary supplements), product defects 
+or problems (including problems with 
+the use or labeling of a product), or 
+biological product deviations; 
+(B) To track FDA-regulated products; 
+(C) To enable product recalls, repairs, 
+or replacement, or lookback (including 
+locating and notifying individuals who 
+have received products that have been 
+recalled, withdrawn, or are the subject 
+of lookback); or 
+(D) To conduct post marketing 
+surveillance; 
+* 
+* 
+* 
+* 
+* 
+(i) Standard: Uses and disclosures for 
+research purposes. * * * 
+(2) Documentation of waiver 
+approval. * * * 
+(ii) Waiver criteria. A statement that 
+the IRB or privacy board has determined 
+that the alteration or waiver, in whole 
+or in part, of authorization satisfies the 
+following criteria: 
+(A) The use or disclosure of protected 
+health information involves no more 
+than a minimal risk to the privacy of 
+individuals, based on, at least, the 
+presence of the following elements; 
+(1) An adequate plan to protect the 
+identifiers from improper use and 
+disclosure; 
+(2) An adequate plan to destroy the 
+identifiers at the earliest opportunity 
+consistent with conduct of the research, 
+unless there is a health or research 
+justification for retaining the identifiers 
+or such retention is otherwise required 
+by law; and 
+(3) Adequate written assurances that 
+the protected health information will 
+not be reused or disclosed to any other 
+person or entity, except as required by 
+law, for authorized oversight of the 
+research study, or for other research for 
+which the use or disclosure of protected 
+health information would be permitted 
+by this subpart; 
+(B) The research could not practicably 
+be conducted without the waiver or 
+alteration; and 
+(C) The research could not practicably 
+be conducted without access to and use 
+of the protected health information. 
+* 
+* 
+* 
+* 
+* 
+11. Amend § 164.514 as follows: 
+a. Revise paragraph (b)(2)(i)(R). 
+b. Revise paragraph (d)(1). 
+c. Revise paragraph (d)(4)(iii). 
+d. In paragraph (d)(5), remove the 
+word ‘‘discloses’’ and add in its place 
+the word ‘‘disclose’’. 
+e. Revise paragraph (e). 
+The revisions read as follows: 
+§ 164.514 Other requirements relating to 
+uses and disclosures of protected health 
+information. 
+* 
+* 
+* 
+* 
+* 
+(b) Implementation specifications: 
+Requirements for de-identification of 
+protected health information. * * * 
+(2)(i) * * * 
+(R) Any other unique identifying 
+number, characteristic, or code, except 
+as permitted by paragraph (c) of this 
+section; and 
+* 
+* 
+* 
+* 
+* 
+(d)(1) Standard: minimum necessary 
+requirements. In order to comply with 
+§ 164.502(b) and this section, a covered 
+entity must meet the requirements of 
+paragraphs (d)(2) through (d)(5) of this 
+section with respect to a request for, or 
+the use and disclosure of, protected 
+health information. 
+* 
+* 
+* 
+* 
+* 
+(4) Implementation specifications: 
+Minimum necessary requests for 
+protected health information. * * * 
+(iii) For all other requests, a covered 
+entity must: 
+(A) Develop criteria designed to limit 
+the request for protected health 
+information to the information 
+reasonably necessary to accomplish the 
+purpose for which the request is made; 
+and 
+(B) Review requests for disclosure on 
+an individual basis in accordance with 
+such criteria. 
+* 
+* 
+* 
+* 
+* 
+(e) (1) Standard: Limited data set. A 
+covered entity may use or disclose a 
+limited data set that meets the 
+requirements of paragraphs (e)(2) and 
+(e)(3) of this section, if the covered 
+entity enters into a data use agreement 
+with the limited data set recipient, in 
+accordance with paragraph (e)(4) of this 
+section. 
+(2) Implementation specification: 
+Limited data set: A limited data set is 
+protected health information that 
+excludes the following direct identifiers 
+of the individual or of relatives, 
+employers, or household members of 
+the individual: 
+(i) Names; 
+(ii) Postal address information, other 
+than town or city, State, and zip code; 
+(iii) Telephone numbers; 
+(iv) Fax numbers; 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00091
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+(v) Electronic mail addresses; 
+(vi) Social security numbers; 
+(vii) Medical record numbers; 
+(viii) Health plan beneficiary 
+numbers; 
+(ix) Account numbers; 
+(x) Certificate/license numbers; 
+(xi) Vehicle identifiers and serial 
+numbers, including license plate 
+numbers; 
+(xii) Device identifiers and serial 
+numbers; 
+(xiii) Web Universal Resource 
+Locators (URLs); 
+(xiv) Internet Protocol (IP) address 
+numbers; 
+(xv) Biometric identifiers, including 
+finger and voice prints; and 
+(xvi) Full face photographic images 
+and any comparable images. 
+(3) Implementation specification: 
+Permitted purposes for uses and 
+disclosures. (i) A covered entity may use 
+or disclose a limited data set under 
+paragraph (e)(1) of this section only for 
+the purposes of research, public health, 
+or health care operations. 
+(ii) A covered entity may use 
+protected health information to create a 
+limited data set that meets the 
+requirements of paragraph (e)(2) of this 
+section, or disclose protected health 
+information only to a business associate 
+for such purpose, whether or not the 
+limited data set is to be used by the 
+covered entity. 
+(4) Implementation specifications: 
+Data use agreement.—(i) Agreement 
+required. A covered entity may use or 
+disclose a limited data set under 
+paragraph (e)(1) of this section only if 
+the covered entity obtains satisfactory 
+assurance, in the form of a data use 
+agreement that meets the requirements 
+of this section, that the limited data set 
+recipient will only use or disclose the 
+protected health information for limited 
+purposes. 
+(ii) Contents. A data use agreement 
+between the covered entity and the 
+limited data set recipient must: 
+(A) Establish the permitted uses and 
+disclosures of such information by the 
+limited data set recipient, consistent 
+with paragraph (e)(3) of this section. 
+The data use agreement may not 
+authorize the limited data set recipient 
+to use or further disclose the 
+information in a manner that would 
+violate the requirements of this subpart, 
+if done by the covered entity; 
+(B) Establish who is permitted to use 
+or receive the limited data set; and 
+(C) Provide that the limited data set 
+recipient will: 
+(1) Not use or further disclose the 
+information other than as permitted by 
+the data use agreement or as otherwise 
+required by law; 
+(2) Use appropriate safeguards to 
+prevent use or disclosure of the 
+information other than as provided for 
+by the data use agreement; 
+(3) Report to the covered entity any 
+use or disclosure of the information not 
+provided for by its data use agreement 
+of which it becomes aware; 
+(4) Ensure that any agents, including 
+a subcontractor, to whom it provides the 
+limited data set agrees to the same 
+restrictions and conditions that apply to 
+the limited data set recipient with 
+respect to such information; and 
+(5) Not identify the information or 
+contact the individuals. 
+(iii) Compliance. (A) A covered entity 
+is not in compliance with the standards 
+in paragraph (e) of this section if the 
+covered entity knew of a pattern of 
+activity or practice of the limited data 
+set recipient that constituted a material 
+breach or violation of the data use 
+agreement, unless the covered entity 
+took reasonable steps to cure the breach 
+or end the violation, as applicable, and, 
+if such steps were unsuccessful: 
+(1) Discontinued disclosure of 
+protected health information to the 
+recipient; and 
+(2) Reported the problem to the 
+Secretary. 
+(B) A covered entity that is a limited 
+data set recipient and violates a data use 
+agreement will be in noncompliance 
+with the standards, implementation 
+specifications, and requirements of 
+paragraph (e) of this section. 
+* 
+* 
+* 
+* 
+* 
+12. Amend § 164.520 as follows: 
+a. Remove the words ‘‘consent or’’ 
+from paragraph (b)(1)(ii)(B). 
+b. In paragraph (c), introductory text, 
+remove ‘‘(c)(4)’’ and add in its place 
+‘‘(c)(3)’’. 
+c. Revise paragraph (c)(2)(i). 
+d. Redesignate paragraphs (c)(2)(ii) 
+and (iii) as (c)(2)(iii) and (iv). 
+e. Add new paragraph (c)(2)(ii). 
+f. Amend redesignated paragraph 
+(c)(2)(iv) by removing ‘‘(c)(2)(ii)’’ and 
+adding in its place ‘‘(c)(2)(iii)’’. 
+g. Amend paragraph (c)(3)(iii) by 
+adding a sentence at the end. 
+h. Revise paragraph (e). 
+The revisions and addition read as 
+follows: 
+§ 164.520 Notice of privacy practices for 
+protected health information. 
+* 
+* 
+* 
+* 
+* 
+(c) Implementation specifications: 
+provision of notice. * * * 
+(2) Specific requirements for certain 
+covered health care providers. * * * 
+(i) Provide the notice: 
+(A) No later than the date of the first 
+service delivery, including service 
+delivered electronically, to such 
+individual after the compliance date for 
+the covered health care provider; or 
+(B) In an emergency treatment 
+situation, as soon as reasonably 
+practicable after the emergency 
+treatment situation. 
+(ii) Except in an emergency treatment 
+situation, make a good faith effort to 
+obtain a written acknowledgment of 
+receipt of the notice provided in 
+accordance with paragraph (c)(2)(i) of 
+this section, and if not obtained, 
+document its good faith efforts to obtain 
+such acknowledgment and the reason 
+why the acknowledgment was not 
+obtained; 
+* 
+* 
+* 
+* 
+* 
+(3) Specific requirements for 
+electronic notice. * * * 
+(iii) * * * The requirements in 
+paragraph (c)(2)(ii) of this section apply 
+to electronic notice. 
+* 
+* 
+* 
+* 
+* 
+(e) Implementation specifications: 
+Documentation. A covered entity must 
+document compliance with the notice 
+requirements, as required by 
+§ 164.530(j), by retaining copies of the 
+notices issued by the covered entity 
+and, if applicable, any written 
+acknowledgments of receipt of the 
+notice or documentation of good faith 
+efforts to obtain such written 
+acknowledgment, in accordance with 
+paragraph (c)(2)(ii) of this section. 
+13. Amend § 164.522 by removing the 
+reference to ‘‘164.502(a)(2)(i)’’ in 
+paragraph (a)(1)(v), and adding in its 
+place ‘‘164.502(a)(2)(ii)’’. 
+14. Amend § 164.528 as follows: 
+a. In paragraph (a)(1)(i), remove 
+‘‘§ 164.502’’ and add in its place 
+‘‘§ 164.506’’. 
+b. Remove the word ‘‘or’’ from 
+paragraph (a)(1)(v). 
+c. Redesignate paragraph (a)(1)(vi) as 
+(a)(1)(ix) and redesignate paragraphs 
+(a)(1)(iii) through (v) as (a)(1)(v) through 
+(vii). 
+d. Add paragraphs (a)(1)(iii), (iv), and 
+(a)(1)(viii). 
+e. Revise paragraph (b)(2), 
+introductory text. 
+f. Revise paragraph (b)(2)(iv). 
+g. Remove ‘‘or pursuant to a single 
+authorization under § 164.508,’’ from 
+paragraph (b)(3), introductory text. 
+h. Add paragraph (b)(4). 
+The additions and revisions read as 
+follows: 
+§ 164.528 Accounting of disclosures of 
+protected health information. 
+(a) Standard: Right to an accounting 
+of disclosures of protected health 
+information. 
+(1) * * * 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00092
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+(iii) Incident to a use or disclosure 
+otherwise permitted or required by this 
+subpart, as provided in § 164.502; 
+(iv) Pursuant to an authorization as 
+provided in § 164.508; 
+* 
+* 
+* 
+* 
+* 
+(viii) As part of a limited data set in 
+accordance with § 164.514(e); or 
+* 
+* 
+* 
+* 
+* 
+(b) Implementation specifications: 
+Content of the accounting. * * * 
+(2) Except as otherwise provided by 
+paragraphs (b)(3) or (b)(4) of this 
+section, the accounting must include for 
+each disclosure: 
+* 
+* 
+* 
+* 
+* 
+(iv) A brief statement of the purpose 
+of the disclosure that reasonably 
+informs the individual of the basis for 
+the disclosure or, in lieu of such 
+statement, a copy of a written request 
+for a disclosure under 
+§§ 164.502(a)(2)(ii) or 164.512, if any. 
+* 
+* 
+* 
+* 
+* 
+(4)(i) If, during the period covered by 
+the accounting, the covered entity has 
+made disclosures of protected health 
+information for a particular research 
+purpose in accordance with § 164.512(i) 
+for 50 or more individuals, the 
+accounting may, with respect to such 
+disclosures for which the protected 
+health information about the individual 
+may have been included, provide: 
+(A) The name of the protocol or other 
+research activity; 
+(B) A description, in plain language, 
+of the research protocol or other 
+research activity, including the purpose 
+of the research and the criteria for 
+selecting particular records; 
+(C) A brief description of the type of 
+protected health information that was 
+disclosed; 
+(D) The date or period of time during 
+which such disclosures occurred, or 
+may have occurred, including the date 
+of the last such disclosure during the 
+accounting period; 
+(E) The name, address, and telephone 
+number of the entity that sponsored the 
+research and of the researcher to whom 
+the information was disclosed; and 
+(F) A statement that the protected 
+health information of the individual 
+may or may not have been disclosed for 
+a particular protocol or other research 
+activity. 
+(ii) If the covered entity provides an 
+accounting for research disclosures, in 
+accordance with paragraph (b)(4) of this 
+section, and if it is reasonably likely that 
+the protected health information of the 
+individual was disclosed for such 
+research protocol or activity, the 
+covered entity shall, at the request of the 
+individual, assist in contacting the 
+entity that sponsored the research and 
+the researcher. 
+* 
+* 
+* 
+* 
+* 
+15. Amend § 164.530 as follows: 
+a. Redesignate paragraph (c)(2) as 
+(c)(2)(i). 
+b. Add paragraph (c)(2)(ii). 
+c. Remove the words ‘‘the 
+requirements’’ from paragraph 
+(i)(4)(ii)(A) and add in their place the 
+word ‘‘specifications.’’ 
+The addition reads as follows: 
+§ 164.530 Administrative requirements. 
+* 
+* 
+* 
+* 
+* 
+(c) Standard: Safeguards. * * * 
+(2) Implementation specifications: 
+Safeguards. (i) * * * 
+(ii) A covered entity must reasonably 
+safeguard protected health information 
+to limit incidental uses or disclosures 
+made pursuant to an otherwise 
+permitted or required use or disclosure. 
+* 
+* 
+* 
+* 
+* 
+16. Revise § 164.532 to read as 
+follows: 
+§ 164.532 Transition provisions. 
+(a) Standard: Effect of prior 
+authorizations. Notwithstanding 
+§§ 164.508 and 164.512(i), a covered 
+entity may use or disclose protected 
+health information, consistent with 
+paragraphs (b) and (c) of this section, 
+pursuant to an authorization or other 
+express legal permission obtained from 
+an individual permitting the use or 
+disclosure of protected health 
+information, informed consent of the 
+individual to participate in research, or 
+a waiver of informed consent by an IRB. 
+(b) Implementation specification: 
+Effect of prior authorization for 
+purposes other than research. 
+Notwithstanding any provisions in 
+§ 164.508, a covered entity may use or 
+disclose protected health information 
+that it created or received prior to the 
+applicable compliance date of this 
+subpart pursuant to an authorization or 
+other express legal permission obtained 
+from an individual prior to the 
+applicable compliance date of this 
+subpart, provided that the authorization 
+or other express legal permission 
+specifically permits such use or 
+disclosure and there is no agreed-to 
+restriction in accordance with 
+§ 164.522(a). 
+(c) Implementation specification: 
+Effect of prior permission for research. 
+Notwithstanding any provisions in 
+§§ 164.508 and 164.512(i), a covered 
+entity may, to the extent allowed by one 
+of the following permissions, use or 
+disclose, for research, protected health 
+information that it created or received 
+either before or after the applicable 
+compliance date of this subpart, 
+provided that there is no agreed-to 
+restriction in accordance with 
+§ 164.522(a), and the covered entity has 
+obtained, prior to the applicable 
+compliance date, either: 
+(1) An authorization or other express 
+legal permission from an individual to 
+use or disclose protected health 
+information for the research; 
+(2) The informed consent of the 
+individual to participate in the research; 
+or 
+(3) A waiver, by an IRB, of informed 
+consent for the research, in accordance 
+with 7 CFR 1c.116(d), 10 CFR 
+745.116(d), 14 CFR 1230.116(d), 15 CFR 
+27.116(d), 16 CFR 1028.116(d), 21 CFR 
+50.24, 22 CFR 225.116(d), 24 CFR 
+60.116(d), 28 CFR 46.116(d), 32 CFR 
+219.116(d), 34 CFR 97.116(d), 38 CFR 
+16.116(d), 40 CFR 26.116(d), 45 CFR 
+46.116(d), 45 CFR 690.116(d), or 49 CFR 
+11.116(d), provided that a covered 
+entity must obtain authorization in 
+accordance with § 164.508 if, after the 
+compliance date, informed consent is 
+sought from an individual participating 
+in the research. 
+(d) Standard: Effect of prior contracts 
+or other arrangements with business 
+associates. Notwithstanding any other 
+provisions of this subpart, a covered 
+entity, other than a small health plan, 
+may disclose protected health 
+information to a business associate and 
+may allow a business associate to create, 
+receive, or use protected health 
+information on its behalf pursuant to a 
+written contract or other written 
+arrangement with such business 
+associate that does not comply with 
+§§ 164.502(e) and 164.504(e) consistent 
+with the requirements, and only for 
+such time, set forth in paragraph (e) of 
+this section. 
+(e) Implementation specification: 
+Deemed compliance.— (1) 
+Qualification. Notwithstanding other 
+sections of this subpart, a covered 
+entity, other than a small health plan, is 
+deemed to be in compliance with the 
+documentation and contract 
+requirements of §§ 164.502(e) and 
+164.504(e), with respect to a particular 
+business associate relationship, for the 
+time period set forth in paragraph (e)(2) 
+of this section, if: 
+(i) Prior to October 15, 2002, such 
+covered entity has entered into and is 
+operating pursuant to a written contract 
+or other written arrangement with a 
+business associate for such business 
+associate to perform functions or 
+activities or provide services that make 
+the entity a business associate; and 
+(ii) The contract or other arrangement 
+is not renewed or modified from 
+
+19:04 Aug 13, 2002
+Jkt 197001
+PO 00000
+Frm 00093
+Fmt 4701
+Sfmt 4700
+
+pfrm17
+PsN: 14AUR4
+
+October 15, 2002, until the compliance 
+date set forth in § 164.534. 
+(2) Limited deemed compliance 
+period. A prior contract or other 
+arrangement that meets the qualification 
+requirements in paragraph (e) of this 
+section, shall be deemed compliant 
+until the earlier of: 
+(i) The date such contract or other 
+arrangement is renewed or modified on 
+or after the compliance date set forth in 
+§ 164.534; or 
+(ii) April 14, 2004. 
+(3) Covered entity responsibilities. 
+Nothing in this section shall alter the 
+requirements of a covered entity to 
+comply with part 160, subpart C of this 
+subchapter and §§ 164.524, 164.526, 
+164.528, and 164.530(f) with respect to 
+protected health information held by a 
+business associate. 
+[FR Doc. 02–20554 Filed 8–9–02; 2:00 pm] 
+BILLING CODE 4153–01–P
