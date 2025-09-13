@@ -1,0 +1,8 @@
+# Node dependencies
+node_modules/
+
+
+# Environment variables (NEVER commit these)
+.env
+
+
