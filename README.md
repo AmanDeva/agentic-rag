@@ -39,9 +39,6 @@ The project is composed of two main components that communicate over the interne
     * The **React frontend** provides the user interface for chat and authentication.
     * The **Express.js backend** acts as a middleman, managing users and chat history in **MongoDB Atlas** and making secure calls to the RAG API on EC2.
 
-![Architecture Diagram](https://i.imgur.com/your-architecture-diagram-link.png) 
-*(**Note:** You can create a simple diagram using a tool like diagrams.net and upload it to your repository to replace this link.)*
-
 ---
 
 ## Technology Stack
