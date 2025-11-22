@@ -1,17 +1,12 @@
 # Environment variables - DO NOT COMMIT
 .env
 
-# Python cache
-__pycache__/
+pycache/
 *.pyc
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Virtual environment folder
 venv/
-*.venv/
+.pytest_cache/
 
 # Generated data/model files
 faiss_index/
-*.jsonl
+processed_chunks.jsonl
+cogni-compliance-layer.zip

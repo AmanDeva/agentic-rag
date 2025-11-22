@@ -1,6 +1,7 @@
 fastapi
 uvicorn[standard]
-streamlit
+
+# LangChain + Providers
 langchain
 langchain-community
 langchain-core
@@ -8,10 +9,26 @@ langchain-huggingface
 langchain-groq
 langchain-openai
 langgraph
+
+# Embeddings
 sentence-transformers
-faiss-cpu
+
+# Vector DB: Pinecone
+langchain-pinecone
+pinecone-client
+
+# Ranking
 rank_bm25
+flashrank
+
+# Env + Data
 python-dotenv
-ragas
 datasets
 pandas
+
+# Evaluation
+ragas
+
+# Deployment 
+redis
+boto3

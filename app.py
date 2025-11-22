@@ -1,94 +1,66 @@
-# app.py
-
 import os
 import json
+import hashlib
+import boto3
+import redis
 from contextlib import asynccontextmanager
-from typing import List
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-# CORRECTED: Import load_dotenv to handle API keys from a .env file
 from dotenv import load_dotenv
 
+# --- Import the RAG Builder from the separate file ---
+from rag_agent import build_agent
+
 # --- Load Environment Variables ---
-# This line will load the keys from the .env file on your EC2 server
 load_dotenv()
 
-# --- LangChain Imports ---
-from langchain_core.documents import Document
-from langchain_core.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
-from langchain_community.vectorstores import FAISS
-from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_groq import ChatGroq
-from langchain_openai import ChatOpenAI
-from langgraph.graph import END, StateGraph
+# --- Configuration ---
+# Redis is running locally on the EC2 instance
+REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
+REDIS_PORT = 6379
+SQS_QUEUE_URL = os.getenv("SQS_QUEUE_URL")
+CACHE_TTL = 3600 * 24 # Cache answers for 24 hours
 
-# --- Global variables for the loaded models ---
+# --- Initialize Services ---
+# 1. Redis Client
+try:
+    redis_client = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=0, decode_responses=True)
+    redis_client.ping() # Test connection
+    print("✅ Connected to Redis")
+except Exception as e:
+    print(f"⚠️ Redis connection failed: {e}")
+    redis_client = None
+
+# 2. SQS Client (for Async requests)
+sqs = boto3.client(
+    'sqs',
+    region_name=os.getenv("AWS_DEFAULT_REGION", "us-east-1"),
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY")
+)
+
+# --- Global Variables ---
 rag_app = None
 
-# --- Pydantic Models for API Request/Response ---
+# --- Pydantic Models ---
 class QueryRequest(BaseModel):
     question: str
 
-class QueryResponse(BaseModel):
-    answer: str
+class AsyncQueryResponse(BaseModel):
+    job_id: str
+    status: str
 
-# --- Loading Logic (remains the same) ---
-def load_components():
-    print("Loading RAG components...")
-    PROJECT_DIR = "./" 
-    INDEX_PATH = os.path.join(PROJECT_DIR, "faiss_index")
-    JSONL_PATH = os.path.join(PROJECT_DIR, "processed_chunks.jsonl")
+# --- Helper: Generate Cache Key ---
+def get_cache_key(text):
+    return f"q:{hashlib.md5(text.encode()).hexdigest()}"
 
-    docs = [Document(page_content=json.loads(line)['text'], metadata=json.loads(line)['metadata']) for line in open(JSONL_PATH, 'r', encoding='utf-8')]
-    embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5", model_kwargs={'device': 'cpu'})
-    vectorstore = FAISS.load_local(INDEX_PATH, embeddings, allow_dangerous_deserialization=True)
-    
-    faiss_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
-    bm25_retriever = BM25Retriever.from_documents(docs)
-    bm25_retriever.k = 5
-    ensemble_retriever = EnsembleRetriever(retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5])
-    
-    # LangGraph Agent Definition
-    class GraphState(dict):
-        question: str; documents: List[Document]; generation: str
-
-    grader_llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
-    # The ChatOpenAI class will automatically look for the OPENAI_API_KEY environment variable
-    generator_llm = ChatOpenAI(model="mistralai/mixtral-8x7b-instruct", base_url="https://openrouter.ai/api/v1")
-
-    def retrieve(state):
-        state['documents'] = ensemble_retriever.invoke(state['question'])
-        return state
-    def grade(state):
-        prompt = PromptTemplate.from_template("Grade relevance of document to question. Score 'yes' or 'no'. JSON out: {{\"score\": \"yes\"}}. Document: {document}\\nQuestion: {question}")
-        grader = prompt | grader_llm | JsonOutputParser()
-        filtered = [d for d in state['documents'] if grader.invoke({"question": state['question'], "document": d.page_content}).get('score', 'no').lower() == "yes"]
-        state['documents'] = filtered
-        return state
-    def generate(state):
-        prompt = PromptTemplate.from_template("Answer based on context:\\nContext:{context}\\nQuestion:{question}")
-        def format_docs(docs): return "\\n\\n".join(doc.page_content for doc in docs)
-        chain = {"context": format_docs, "question": lambda s: s['question']} | prompt | generator_llm | StrOutputParser()
-        state['generation'] = chain.invoke(state)
-        return state
-    def decide(state): return "generate" if state.get("documents") else "end"
-    
-    wf = StateGraph(GraphState)
-    wf.add_node("retrieve", retrieve); wf.add_node("grade", grade); wf.add_node("generate", generate)
-    wf.set_entry_point("retrieve"); wf.add_edge("retrieve", "grade")
-    wf.add_conditional_edges("grade", decide, {"generate": "generate", "end": END}); wf.add_edge("generate", END)
-    
-    print("RAG components loaded successfully.")
-    return wf.compile()
-
-# --- FastAPI Lifespan & App Initialization (remains the same) ---
+# --- Lifecycle: Load Agent on Startup ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global rag_app
-    rag_app = load_components()
+    print("🚀 Loading RAG Agent into memory...")
+    rag_app = build_agent() # Loads BGE-Large, Re-ranker, Pinecone connection
+    print("✅ RAG Agent Ready.")
     yield
     rag_app = None
 
@@ -96,13 +68,56 @@ app = FastAPI(lifespan=lifespan)
 
 @app.get("/")
 def read_root():
-    return {"status": "Cogni-Compliance API is running"}
+    return {
+        "status": "Cogni-Compliance API (EC2)", 
+        "redis": "connected" if redis_client else "disabled"
+    }
 
-@app.post("/ask", response_model=QueryResponse)
+# --- Endpoint 1: Synchronous /ask (High Speed with Cache) ---
+@app.post("/ask")
 async def ask_question(request: QueryRequest):
+    # 1. FAST PATH: Check Redis Cache
+    if redis_client:
+        cache_key = get_cache_key(request.question)
+        cached_answer = redis_client.get(cache_key)
+        if cached_answer:
+            return {"answer": cached_answer, "source": "cache"}
+
+    # 2. SLOW PATH: Run RAG Agent
     if not rag_app:
-        return {"answer": "Error: RAG agent not loaded."}
+        raise HTTPException(status_code=503, detail="RAG Agent not ready")
     
-    response = rag_app.invoke({"question": request.question})
-    final_answer = response.get("generation", "I don't have enough information to answer.")
-    return {"answer": final_answer}
+    try:
+        response = rag_app.invoke({"question": request.question})
+        final_answer = response.get("generation", "I don't have enough information to answer.")
+    except Exception as e:
+        print(f"Error running agent: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+    # 3. Save to Redis for next time
+    if redis_client:
+        redis_client.setex(cache_key, CACHE_TTL, final_answer)
+
+    return {"answer": final_answer, "source": "live"}
+
+# --- Endpoint 2: Asynchronous /ask_async (For heavy load) ---
+@app.post("/ask_async", response_model=AsyncQueryResponse)
+async def ask_async(request: QueryRequest):
+    if not SQS_QUEUE_URL:
+        raise HTTPException(status_code=500, detail="SQS Queue URL not configured in .env")
+
+    try:
+        # Push job to SQS
+        response = sqs.send_message(
+            QueueUrl=SQS_QUEUE_URL,
+            MessageBody=json.dumps({"question": request.question}),
+            MessageAttributes={
+                'RequestType': {'DataType': 'String', 'StringValue': 'RAG_Query'}
+            }
+        )
+        return {
+            "job_id": response['MessageId'], 
+            "status": "queued"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
