@@ -26,7 +26,7 @@ Unlike standard RAG pipelines, this system uses a **LangGraph-based agentic work
 
 | Layer | Technology |
 |-------|------------|
-| Compute | AWS EC2 (t3.medium — Ubuntu 24.04 LTS) |
+| Compute | AWS EC2 (t3.large — Ubuntu 24.04 LTS) |
 | API Framework | FastAPI (Python) |
 | Vector DB | Pinecone Serverless (`cogni-compliance` index) |
 | Search | Hybrid (Semantic + BM25 Keyword Search) |
